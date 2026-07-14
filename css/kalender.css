@@ -1,0 +1,147 @@
+/* ==========================
+KALENDER
+========================== */
+
+.kalender{
+
+    padding:40px 0 70px;
+
+}
+
+.kalender-container{
+
+    width:1200px;
+
+    margin:auto;
+
+}
+
+.kalender h1{
+
+    text-align:center;
+
+    font-size:42px;
+
+    letter-spacing:8px;
+
+    margin-bottom:35px;
+
+}
+
+/* ==========================
+FULLCALENDAR
+========================== */
+
+#calendar{
+
+    width:900px;
+
+    margin:auto;
+
+    background:#fff;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+/* HEADER */
+
+.fc-toolbar{
+
+    background:#204138;
+
+    color:white;
+
+    padding:15px;
+
+    border-radius:12px 12px 0 0;
+
+}
+
+/* Judul Bulan */
+
+.fc-toolbar-title{
+
+    font-size:36px !important;
+
+    font-style:italic;
+
+    color:white;
+
+}
+
+/* Tombol */
+
+.fc-button{
+
+    background:#204138 !important;
+
+    border:none !important;
+
+}
+
+.fc-button:hover{
+
+    background:#2d5d50 !important;
+
+}
+
+/* Popup */
+
+.popup-booking{
+
+    border-radius:20px;
+
+}
+
+/* ===========================
+   FLOATING WA
+=========================== */
+
+.floating-wa{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:30px;
+
+    width:65px;
+
+    height:65px;
+
+    background:#25D366;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:34px;
+
+    text-decoration:none;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.25);
+
+    transition:.3s;
+
+    z-index:999;
+
+}
+
+.floating-wa:hover{
+
+    transform:scale(1.1);
+
+    color:white;
+
+}

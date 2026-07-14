@@ -1,0 +1,102 @@
+.footer{
+    width:100%;
+    background:#204138;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px 0;
+}
+
+.footer-container{
+    max-width:1200px;
+    width:100%;
+    margin:auto;
+    padding:0 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+/* ====== TEXT FOOTER ======== */
+
+.footer-container span{
+    font-family:'Poppins',sans-serif;
+    font-size:16px;
+    font-weight:400;
+    color:white;
+    text-align:center;
+}
+
+.footer-container a{
+    font-family:'Poppins',sans-serif;
+    font-size:16px;
+    font-weight:400;
+    color:white;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    transition:.3s;
+}
+
+.footer-container a:hover{
+    color:#F2A32C;
+}
+
+.footer-container i{
+    font-size:18px;
+}
+
+/* =========== TABLET ============ */
+
+@media (max-width:992px){
+    .footer-container{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+}
+
+/* ========= MOBILE ========== */
+
+@media (max-width:768px){
+    .footer{
+        padding:25px 0;
+    }
+
+    .footer-container{
+        gap:12px;
+    }
+
+    .footer-container span{
+        font-size:14px;
+        line-height:24px;
+    }
+
+    .footer-container a{
+        font-size:14px;
+    }
+
+    .footer-container i{
+        font-size:16px;
+    }
+}
+
+/* ========= HP KECIL ======== */
+
+@media (max-width:480px){
+    .footer-container{
+        padding:0 15px;
+    }
+
+    .footer-container span{
+        font-size:13px;
+        line-height:22px;
+    }
+
+    .footer-container a{
+        font-size:13px;
+    }
+}

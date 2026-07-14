@@ -1,0 +1,196 @@
+.booking{
+
+    padding:40px 0;
+
+}
+
+.booking-container{
+
+    width:650px;
+    margin:auto;
+
+}
+
+.booking-logo{
+
+    width:120px;
+    display:block;
+    margin:auto;
+
+}
+
+.booking h1{
+
+    text-align:center;
+    font-size:36px;
+    font-weight:700;
+    letter-spacing:4px;
+
+    margin:20px 0 35px;
+
+}
+
+.booking .form-control{
+
+    height:55px;
+
+    border-radius:15px;
+
+    margin-bottom:15px;
+
+}
+
+.booking textarea{
+
+    height:100px !important;
+
+}
+
+.radio-group{
+
+    margin:20px 0;
+
+}
+
+.radio-group label{
+
+    font-size:14px;
+
+}
+
+.radio-list{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+
+    margin-top:10px;
+
+}
+
+.btn-booking{
+
+    background:#4D64F5;
+    color:white;
+
+    padding:10px 30px;
+
+    border-radius:10px;
+
+}
+
+/* ===========================
+   INPUT ICON
+=========================== */
+
+.input-icon{
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.input-icon i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8B8B8B;
+    font-size: 16px;
+    z-index: 2;
+}
+
+.input-icon input{
+    padding-left: 45px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+.input-icon textarea{
+    padding-left: 45px;
+    padding-top: 12px;
+    border-radius: 12px;
+    resize: none;
+}
+
+.input-icon textarea + i{
+    top: 20px;
+}
+
+.textarea-icon i{
+    top: 20px;
+    transform: none;
+}
+
+/* ===========================
+POPUP KONFIRMASI
+=========================== */
+
+.popup-konfirmasi{
+    background:#262222;
+    border-radius:20px;
+    color:white;
+    border:none;
+}
+
+.popup-konfirmasi .modal-body{
+    padding:35px;
+}
+
+.popup-konfirmasi h2{
+    font-size:22px;
+    font-weight:700;
+    margin-top:15px;
+}
+
+.popup-konfirmasi p{
+    color:#DADADA;
+    margin-top:10px;
+    margin-bottom:25px;
+}
+
+.popup-button{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+/* ===========================
+POPUP BERHASIL
+=========================== */
+
+.popup-berhasil{
+    background:#262222;
+    border-radius:20px;
+    color:white;
+    border:none;
+}
+
+.popup-berhasil .modal-body{
+    padding:40px;
+}
+
+.popup-berhasil h1{
+    font-size:42px;
+    font-weight:700;
+    margin-top:15px;
+}
+
+.popup-berhasil p{
+    font-size:22px;
+    margin-top:10px;
+    margin-bottom:25px;
+}
+
+/* ===========================
+ICON POPUP
+=========================== */
+.popup-icon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.popup-icon img{
+    width:80px;
+    height:auto;
+}

@@ -1,0 +1,247 @@
+.promo{
+
+    padding:45px 0 60px;
+
+}
+
+.promo-container{
+    max-width:1200px;
+    width:100%;
+    padding:0 20px;
+    margin:auto;
+    text-align:center;
+}
+
+.promo h2{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:#204138;
+
+    margin-bottom:50px;
+
+}
+
+.promo-wrapper{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.promo-card{
+    width:220px;
+    height:280px;
+    overflow:hidden;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.promo-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.promo-card:hover img{
+    transform:scale(1.05);
+}
+
+
+/* PAKET */
+.paket{
+padding:30px 0 50px;
+}
+
+.paket-container{
+    max-width:1200px;
+    width:100%;
+    padding:0 20px;
+    margin:auto;
+    text-align:center;
+}
+
+.paket h1{
+    font-size:36px;
+    font-weight:700;
+    letter-spacing:5px;
+    margin-bottom:40px;
+}
+
+.paket-wrapper{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+}
+
+.paket-card{
+    width:100%;
+    max-width:320px;
+    background:white;
+    padding:20px;
+    border-radius:18px;
+    box-shadow:0 5px 18px rgba(0,0,0,.15);
+}
+
+.paket-card span{
+    display:inline-block;
+    padding:5px 15px;
+    border:1px solid #333;
+    border-radius:8px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.paket-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.btn-selengkapnya{
+    margin-top:35px;
+    background:#204138;
+    color:white;
+    padding:10px 28px;
+    border:none;
+    border-radius:10px;
+}
+
+.btn-selengkapnya:hover{
+    background:#F2A32C;
+}
+
+
+/* POPUP */
+.popup-paket{
+    border-radius:20px;
+    padding:20px;
+}
+
+.logo-popup{
+    width:90px;
+    display:block;
+    margin:auto;
+}
+
+.popup-paket h5{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #555;
+    margin: 12px 0 18px;
+
+}
+
+.popup-paket input{
+    margin-bottom:18px;
+    border-radius:12px;
+    height:48px;
+}
+
+.input-icon{
+    position:relative;
+    margin-bottom:20px;
+}
+
+.input-icon input{
+    width:100%;
+    height:52px;
+    padding-left:48px;
+    padding-right:48px;
+    border:1px solid #A8A8A8;
+    border-radius:12px;
+    font-size:14px;
+    outline:none;
+    box-shadow:5px 5px 8px rgba(0,0,0,.18);
+    transition:.3s;
+}
+
+.input-icon input:focus{
+    border-color:#204138;
+    box-shadow:0 0 6px rgba(32,65,56,.3);
+}
+
+.icon-left{
+    position:absolute;
+    left:16px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#666;
+    font-size:18px;
+}
+
+/* Ikon kanan (kalender) */
+.icon-right{
+    position:absolute;
+    right:16px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#666;
+    font-size:18px;
+    pointer-events:none;
+}
+
+/* ====== TABLET ========== */
+
+@media (max-width:992px){
+    .promo h2,
+    .paket h1{
+        font-size:30px;
+    }
+
+    .promo-card{
+        width:180px;
+        height:230px;
+    }
+    .promo-wrapper{
+        flex-wrap:wrap;
+    }
+
+}
+
+
+/* ====== MOBILE ========== */
+
+@media (max-width:768px){
+    .promo{
+        padding:25px 0;
+    }
+
+    .promo-wrapper{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+
+    }
+
+    .promo-card{
+        width:100%;
+        height:auto;
+    }
+
+    .paket h1{
+        font-size:26px;
+        letter-spacing:3px;
+    }
+
+    .paket-wrapper{
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+    }
+
+    .paket-card{
+        width:100%;
+        max-width:350px;
+    }
+
+    .paket-card img{
+        height:250px;
+    }
+}

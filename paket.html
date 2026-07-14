@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Wisuda</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/paket.css">
+</head>
+
+<body>
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="assets\logo.png" alt="Logo">
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <nav class="navbar" id="navbar">
+                <a href="C:\Users\LENOVO\Documents\Milik Pribadi\Skripsi-GaleriWIsuda\index.html">Beranda</a>
+                <a href="C:\Users\LENOVO\Documents\Milik Pribadi\Skripsi-GaleriWIsuda\galeri.html">Galeri</a>
+                <a href="C:\Users\LENOVO\Documents\Milik Pribadi\Skripsi-GaleriWIsuda\paket.html">Daftar Paket</a>
+                <a href="C:\Users\LENOVO\Documents\Milik Pribadi\Skripsi-GaleriWIsuda\kalender.html">Kalender</a>
+                <a href="C:\Users\LENOVO\Documents\Milik Pribadi\Skripsi-GaleriWIsuda\syarat.html">Syarat & Ketentuan</a>
+                <a href="C:\Users\LENOVO\Documents\Milik Pribadi\Skripsi-GaleriWIsuda\booking.html">Booking</a>
+                <a href="C:\Users\LENOVO\Documents\Milik Pribadi\Skripsi-GaleriWIsuda\ulasan.html">Ulasan</a>
+                <a href="C:\Users\LENOVO\Documents\Milik Pribadi\Skripsi-GaleriWIsuda\tentang.html">Tentang Kami</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ================= PROMO ================= -->
+        <section class="promo">
+            <div class="promo-container">
+                <div class="promo-wrapper">
+                    <div class="promo-card">
+                        <img src="assets\Promo\Promo1.png"
+                        alt="Promo 1"
+                        data-bs-toggle="modal"
+                        data-bs-target="#promoModal"
+                        onclick="showPromo(this.src)">
+                    </div>
+                    <div class="promo-card">
+                        <img src="assets\Promo\Promo2.png"
+                        alt="Promo 2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#promoModal"
+                        onclick="showPromo(this.src)">
+                    </div>
+                    <div class="promo-card">
+                        <img src="assets\Promo\Promo3.png"
+                        alt="Promo 3"
+                        data-bs-toggle="modal"
+                        data-bs-target="#promoModal"
+                        onclick="showPromo(this.src)">
+                    </div>
+                    <div class="promo-card">
+                        <img src="assets\Promo\Promo4.png"
+                        alt="Promo 4"
+                        data-bs-toggle="modal"
+                        data-bs-target="#promoModal"
+                        onclick="showPromo(this.src)">
+                    </div>
+
+                    <div class="promo-card">
+                        <img src="assets\Promo\Promo5.png"
+                        alt="Promo 5"
+                        data-bs-toggle="modal"
+                        data-bs-target="#promoModal"
+                        onclick="showPromo(this.src)">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DAFTAR PAKET -->
+        <section class="paket">
+            <div class="paket-container">
+                <h1>DAFTAR PAKET</h1>
+                <div class="paket-wrapper">
+
+                    <!-- Paket 1 -->
+                    <div class="paket-card">
+                        <span>PAKET FOTO ONLY</span>
+                        <img src="assets/Daftar Paket/DaftarPaket1.jpeg">
+                    </div>
+
+                    <!-- Paket 2 -->
+                    <div class="paket-card">
+                        <span>PAKET VIDEO ONLY</span>
+                        <img src="assets/Daftar Paket/DaftarPaket2.jpeg">
+                    </div>
+
+                    <!-- Paket 3 -->
+                    <div class="paket-card">
+                        <span>PAKET FOTO dan VIDEO</span>
+                        <img src="assets/Daftar Paket/DaftarPaket3.jpeg">
+                    </div>
+                </div>
+
+                <button class="btn-selengkapnya" data-bs-toggle="modal" data-bs-target="#popupData">
+                    Selengkapnya
+                </button>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ================= POPUP PROMO ================= -->
+    <div class="modal fade" id="promoModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" style="max-width:450px;">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                     <img id="promoImage"
+                     src="assets\Promo\Promo1.png"
+                     class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= POPUP DAFTAR PAKET ================= -->
+    <div class="modal fade" id="popupData">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content popup-paket">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    <img src="assets/logohitam.png" class="logo-popup">
+                    <h5>Isi data dulu ya, untuk melihat paket dan harga!</h5>
+                    
+                    <!-- Nama -->
+                    <div class="input-icon">
+                        <i class="bi bi-pencil icon-left"></i>
+                        <input type="text" id="nama" class="form-control" placeholder="Nama Lengkap">
+                    </div>
+
+                    <!-- Universitas -->
+                    <div class="input-icon">
+                        <i class="bi bi-building icon-left"></i>
+                        <input type="text" id="universitas" class="form-control" placeholder="Nama Universitas">
+                    </div>
+
+                    <!-- Tanggal Wisuda -->
+                    <div class="input-icon">
+                        <i class="bi bi-calendar-event icon-left"></i>
+                        <input type="text" id="tanggal" class="form-control" placeholder="Tanggal Wisuda" onfocus="this.type='date'" onblur="if(this.value==''){this.type='text'}">
+                    </div>
+                    <button id="btnLanjut" class="btn btn-warning">
+                            Simpan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <span>2026 Galeri Wisuda | Foto dan Video Momen Wisuda</span>
+            <a href="#">
+                <i class="bi bi-instagram"></i>
+                galeriwisuda.picture
+            </a>
+            <a href="#">
+                <i class="bi bi-whatsapp"></i>
+                +62 822 3611 3261
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/paket.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>
+
+
+
+
+
+

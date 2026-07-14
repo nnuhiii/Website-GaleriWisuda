@@ -1,0 +1,114 @@
+.syarat{
+
+    padding:30px 0 40px;
+
+}
+
+.syarat-container{
+
+    width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.syarat h1{
+
+    font-size:36px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    margin-bottom:30px;
+
+}
+
+.accordion{
+
+    width:700px;
+
+}
+
+.accordion-item{
+
+    margin-bottom:15px;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+.note-box{
+
+    width:700px;
+
+    background:#F7F2E9;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    margin:20px 0 30px;
+
+}
+
+.syarat-gallery{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.syarat-gallery img{
+
+    width:210px;
+
+    height:300px;
+
+    object-fit:cover;
+
+}
+
+.accordion{
+    width:700px;
+}
+
+.accordion-item{
+    border:1px solid #d9d9d9;
+    border-radius:10px;
+    overflow:hidden;
+    margin-bottom:15px;
+}
+
+.accordion-button{
+    background:#fff;
+    color:#222;
+    font-weight:600;
+    font-size:18px;
+}
+
+.accordion-button:not(.collapsed){
+    background:#fff;
+    color:#204138;
+    box-shadow:none;
+}
+
+.accordion-button:focus{
+    box-shadow:none;
+}
+
+.accordion-body{
+    background:#fafafa;
+    line-height:28px;
+}

@@ -1,0 +1,377 @@
+.ulasan{
+
+    padding:30px 0 40px;
+
+}
+
+.ulasan-container{
+
+    width:1200px;
+
+    margin:auto;
+
+}
+
+.ulasan h1{
+
+    text-align:center;
+
+    font-size:36px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    margin-bottom:35px;
+
+}
+
+.ulasan-wrapper{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.ulasan-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.ulasan-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* === Nama ===== */
+.ulasan-card h5{
+
+    font-size:17px;
+
+    font-weight:700;
+
+    color:#204138;
+
+}
+
+/* === Rating ===== */
+.rating{
+
+    color:#F2A32C;
+
+    margin:10px 0;
+
+    font-size:18px;
+
+}
+
+/* === Isi Ualasan ===== */
+.ulasan-card p{
+
+    font-size:14px;
+
+    color:#666;
+
+    line-height:24px;
+
+}
+
+/* === Tombol ===== */
+.button-ulasan{
+
+    margin-top:40px;
+
+    text-align:center;
+
+}
+
+
+/* === rating input ===== */
+.rating-input{
+
+    font-size:30px;
+
+    color:#F2A32C;
+
+    text-align:center;
+
+    margin:15px 0;
+
+    cursor:pointer;
+
+}
+
+
+/* ===========================
+   BUTTON TAMBAH ULASAN
+=========================== */
+
+.button-ulasan{
+
+    text-align:center;
+
+    margin-top:35px;
+
+}
+
+/* ===========================
+   MODAL ULASAN
+=========================== */
+
+.modal-ulasan{
+
+    width:430px;
+
+    margin:auto;
+
+    border-radius:20px;
+
+    padding:15px;
+
+}
+
+.logo-popup{
+
+    text-align:center;
+
+}
+
+.logo-popup img{
+
+    width:90px;
+
+    margin-bottom:10px;
+
+}
+
+.modal-ulasan h4{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.modal-ulasan .form-control{
+
+    border-radius:12px;
+
+    margin-bottom:20px;
+
+}
+
+.modal-ulasan textarea{
+
+    resize:none;
+
+}
+
+/* ===========================
+   RATING
+=========================== */
+
+.rating-input{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.rating-input i{
+
+    font-size:32px;
+
+    color:#CFCFCF;
+
+    cursor:pointer;
+
+    margin:0 5px;
+
+    transition:.3s;
+
+}
+
+.rating-input i.active{
+
+    color:#F2A32C;
+
+}
+
+/* ===================================
+POPUP TAMBAH ULASAN
+=================================== */
+
+.popup-ulasan{
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.tombol-close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 9999;
+}
+
+.logo-popup{
+
+    width:90px;
+
+    display:block;
+
+    margin:auto;
+
+}
+
+.popup-ulasan h5{
+
+    text-align:center;
+
+    margin:15px 0 25px;
+
+    font-weight:700;
+
+}
+
+.input-icon{
+
+    position:relative;
+
+    margin-bottom:20px;
+
+}
+
+.input-icon i{
+
+    position:absolute;
+
+    left:15px;
+
+    top:18px;
+
+    font-size:20px;
+
+    color:#666;
+
+}
+
+.input-icon input{
+
+    padding-left:45px;
+
+    height:50px;
+
+    border-radius:15px;
+
+}
+
+.input-icon textarea{
+
+    padding-left:45px;
+
+    padding-top:15px;
+
+    border-radius:15px;
+
+    resize:none;
+
+}
+
+.rating-input{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.rating-input i{
+
+    font-size:35px;
+
+    color:#CCCCCC;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.rating-input i.active{
+
+    color:#F2A32C;
+
+}
+
+.btn-simpan{
+
+    background:#F2A32C;
+
+    border-radius:10px;
+
+    padding:8px 25px;
+
+}
+
+/* ===================================
+POPUP BERHASIL
+=================================== */
+
+.popup-berhasil{
+
+    width:450px;
+
+    background:#222;
+
+    color:white;
+
+    border-radius:20px;
+
+}
+
+.popup-berhasil .modal-body{
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+.success-icon{
+
+    width:110px;
+
+    margin-bottom:15px;
+
+}
+
+.popup-berhasil h2{
+
+    font-weight:700;
+
+}
+
+.popup-berhasil p{
+
+    font-size:25px;
+
+}

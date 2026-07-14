@@ -1,0 +1,51 @@
+.chat-page{
+    background:#ECE5DD;
+    min-height:100vh;
+    padding:40px 0;
+}
+
+.chat-container{
+    width:700px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.chat-header{
+    background:#204138;
+    color:white;
+    padding:15px 20px;
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.chat-header img{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+}
+
+.chat-body{
+    padding:30px;
+}
+
+.chat-bubble{
+    background:#DCF8C6;
+
+    max-width:500px;
+
+    padding:15px 20px;
+
+    border-radius:15px;
+
+    line-height:28px;
+
+    font-size:15px;
+}

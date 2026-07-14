@@ -1,0 +1,1 @@
+console.log("Galeri Wisuda");
