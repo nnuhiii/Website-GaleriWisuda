@@ -98,6 +98,22 @@
 
 }
 
+.btn-tambah-ulasan{
+    background-color:#204138;
+    color:#FFFFFF;
+    border:none;
+    border-radius:10px;
+    padding:10px 25px;
+    font-size:15px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-tambah-ulasan:hover{
+    background-color:#384537;
+    color:#FFFFFF;
+}
+
 
 /* === rating input ===== */
 .rating-input{
